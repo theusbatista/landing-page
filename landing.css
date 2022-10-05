@@ -1,0 +1,20 @@
+@charset "Utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+        background-image: image('old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg');
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 450px;
+    height: 500px;
+    border: 1px solid white;
+}
