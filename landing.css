@@ -8,13 +8,40 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: black;
-        background-image: image('old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg');
+    background-image: url(body-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 450px;
     height: 500px;
     border: 1px solid white;
+    
+}
+.btn{
+    margin: 10px 10px 10px 10px;
+    display: block;
+    text-align: center;
+    width: 100px;
+    border: 0.8px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    transition: 0.3s;
+}
+.btn:hover{
+    box-shadow: 0 0 3px 1px  white ;
+    transition: 0.3s;
+}
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
 }
